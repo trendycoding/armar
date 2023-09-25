@@ -1,0 +1,64 @@
+{
+  "JavaScript": {
+    "Package": {
+      "Name": "boilerplate-api",
+      "Version": "1.0.0",
+      "Description": "Boiler plate json to kick start Armar configurations",
+      "Scripts": {
+        "build": "tsc",
+        "watch": "tsc -w",
+        "prestart": "npm run build",
+        "start": "func start",
+        "test": "echo \u0022No tests yet...\u0022"
+      },
+      "Dependencies": {},
+      "DevDependencies": {
+        "@azure/functions": "^2.0.0",
+        "@types/node": "14.x",
+        "typescript": "~4.7.4"
+      }
+    },
+    "HostSection": {},
+    "LocalSettings": {}
+  },
+  "TypeScript": {
+    "TypeScriptSettings": {
+      "CompilerOptions": {
+        "ExperimentalDecorators": true,
+        "EmitDecoratorMetadata": true,
+        "Module": "commonjs",
+        "Target": "es6",
+        "OutDir": "dist",
+        "RootDir": ".",
+        "SourceMap": true,
+        "Strict": true
+      }
+    },
+    "Package": {
+      "Name": "boilerplate-api",
+      "Version": "1.0.0",
+      "Description": "Boiler plate json to kick start Armar configurations",
+      "Scripts": {
+        "build": "tsc",
+        "watch": "tsc -w",
+        "prestart": "npm run build",
+        "start": "func start",
+        "test": "echo \u0022No tests yet...\u0022"
+      },
+      "Dependencies": {},
+      "DevDependencies": {
+        "@azure/functions": "^2.0.0",
+        "@types/node": "14.x",
+        "typescript": "~4.7.4"
+      }
+    },
+    "HostSection": {},
+    "LocalSettings": {}
+  },
+  "CSharp": {
+    "NameSpace": "SampleCompany.ApplicationName.API",
+    "ModelsNameSpace": "SampleCompany.ApplicationName.API.Models",
+    "BusinessLogicNameSpace": "SampleCompany.ApplicationName.API.BusinessLogic",
+    "ValidationNameSpace": "SampleCompany.ApplicationName.API.Validation"
+  }
+}
