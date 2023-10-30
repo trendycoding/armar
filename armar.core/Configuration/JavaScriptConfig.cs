@@ -48,7 +48,7 @@ namespace Armar.Core
             {"watch", "tsc -w"},
             {"prestart", "npm run build"},
             {"start", "func start"},
-            {"test", "echo \"No tests yet...\""}
+            {"test", "echo 'No tests yet...'"}
         };
         /// <summary>
         /// Dependencies to include in the project matches the dependencies section of the package.json
